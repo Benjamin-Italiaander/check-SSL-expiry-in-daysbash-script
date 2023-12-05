@@ -1,1 +1,11 @@
-# chack_expiry_in_days__bashscript
+# check the expiry days of a ssl certificate bash script
+
+This script gives the amount of days before a ssl-certificate will expire. 
+
+Just run it like
+
+```bash
+./chack_ssl.sh domain.tld
+```
+
+
