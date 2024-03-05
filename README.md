@@ -5,7 +5,7 @@ This script gives the amount of days before a ssl-certificate will expire.
 Just run it like
 
 ```bash
-./chack_ssl.sh domain.tld
+./check_ssl.sh domain.tld
 ```
 
 
