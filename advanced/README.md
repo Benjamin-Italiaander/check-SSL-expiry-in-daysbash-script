@@ -10,3 +10,20 @@ The base of this second script is this line, it creates a variable calles ssl_ce
 ```
 
 
+As a example you can search for the issuing date like this:
+
+```bash
+before=$(printf "$ssl_cert" | grep 'Not Before' | sed 's%Not Before: %%' |  sed -e 's/^[ \t]*//'  )
+```bash
+
+A small explanatin of the above
+```bash
+# Simply print the content of the ssl_cert variable
+printf "$ssl_cert"
+```
+```bash
+printf "$ssl_cert" | grep 'Not Before'
+# Now combine printing and serching for a specific line, in this case the content "Not Before"
+```
+
+
