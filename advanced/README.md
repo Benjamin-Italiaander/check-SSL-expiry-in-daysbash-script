@@ -12,7 +12,7 @@ ssl_cert=$(echo "GET / HTTP/1.0 EOT" | \
 ```
 
 
-## example 1 
+### Example 1 
 here a example how you can search for the issue date like this
 
 ```bash
