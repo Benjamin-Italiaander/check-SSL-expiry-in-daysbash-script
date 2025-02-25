@@ -12,7 +12,8 @@ ssl_cert=$(echo "GET / HTTP/1.0 EOT" | \
 ```
 
 
-As a example you can search for the issuing date like this:
+## example 1 
+here a example how you can search for the issue date like this
 
 ```bash
 before=$(printf "$ssl_cert" | grep 'Not Before' | sed 's%Not Before: %%' |  sed -e 's/^[ \t]*//'  )
