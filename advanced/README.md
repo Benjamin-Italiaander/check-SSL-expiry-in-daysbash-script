@@ -23,7 +23,18 @@ printf "$ssl_cert"
 ```
 ```bash
 printf "$ssl_cert" | grep 'Not Before'
-# Now combine printing and serching for a specific line, in this case the content "Not Before"
+# Now combine printing and serching for a specific line, in this case search for the ling with the content "Not Before"
 ```
+
+```bash
+ sed 's%Not Before: %%'
+# This removes the text "Not Before:" from the line
+```
+
+```bash
+sed -e 's/^[ \t]*//'
+# This removes the white spaces from the beginning of a line
+```
+
 
 
