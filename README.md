@@ -6,4 +6,5 @@ The [first](https://raw.githubusercontent.com/Benjamin-Italiaander/check-SSL-exp
 ./check_ssl.sh domain.tld
 ```
 
+A more scriptable way to be able to bulk check on ssl-certificates can be found [here](https://github.com/Benjamin-Italiaander/check-SSL-expiry-in-daysbash-script/tree/main/advanced)
 
