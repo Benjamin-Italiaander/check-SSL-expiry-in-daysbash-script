@@ -1,4 +1,4 @@
-## This is a more sciptable way of generation SSL info
+## This is a more scriptable way of genereate SSL info
 
 
 The base of this second script is this line, it creates a variable calles ssl_cert you can collect all your data from this without reconnect to the different servers.
